@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Algerian Forest Fire Predictor</title>
+   <link rel="stylesheet" href="{{url_for('static',filename='style2.css')}}">
+ 
+
+</head>
+<body>
+
+  <header>
+        <h1 style="color: red;font-size: 4vw;font-style: italic;font-weight: 70px;text-align: center;">Algerian FWI Predictor🔥🌲</h1>
+  </header>
+  
+
+  <section>
+    <h2>🌍 What This Website Does?</h2>
+    <p>This tool predicts the Fire Weather Index (FWI) for two major regions of Algeria using real-time environmental data. FWI is a global standard used to estimate forest fire risk based on weather conditions.</p>
+  </section>
+
+  <section style="text-align: center; margin-top: 2rem;">
+  <a href="/predict" style="
+    background: #d84315;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+  ">
+    🔍 Try FWI Prediction
+  </a>
+</section>
+
+    <section>
+    <h2>📊 What Influences FWI?</h2>
+    <table>
+      <tr>
+        <th>Factor</th>
+        <th>Effect on FWI</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>🌡️ Temperature</td>
+        <td>Higher temp → Higher FWI</td>
+        <td>Heat dries fuel, increasing ignition potential</td>
+      </tr>
+      <tr>
+        <td>💧 Humidity (RH)</td>
+        <td>Lower RH → Higher FWI</td>
+        <td>Dry air reduces moisture in vegetation</td>
+      </tr>
+      <tr>
+        <td>🌬️ Wind Speed (Ws)</td>
+        <td>Higher wind → Higher FWI</td>
+        <td>Wind accelerates fire spread and intensity</td>
+      </tr>
+      <tr>
+        <td>🌧️ Rainfall</td>
+        <td>More rain → Lower FWI</td>
+        <td>Rain increases fuel moisture, lowering fire risk</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>🗺️ Regional Differences</h2>
+    <div class="region">
+      <strong>Region 0:</strong> Fires often occur during dry spells with moderate wind and high temperature.
+    </div>
+    <div class="region">
+      <strong>Region 1:</strong> Fires are more intense and frequent during heatwaves with low humidity and strong wind.
+    </div>
+  </section>
+
+   <section>
+    <h2>🧠 How Prediction Works</h2>
+    <p>We use machine learning models trained on historical Algerian forest data to predict FWI values based on daily weather inputs. These predictions help assess fire risk and guide preventive action.</p>
+  </section>
+
+    <section>
+    <h2>🚨 Why It Matters</h2>
+    <p>FWI-based forecasting helps forest officials and citizens prepare for fire-prone conditions before they escalate. It’s a proactive step toward protecting ecosystems, wildlife, and human lives.</p>
+  </section>
+
+  
+
+</body>
+</html>

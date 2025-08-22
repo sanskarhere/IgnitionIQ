@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: -40px;
+    padding: 40px 20px;
+}
+
+._name{
+    color: black; 
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 10px;
+    background-color: #ffffff !important;;
+    box-sizing: content-box;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1[draggable] {
+    color: rgb(242, 45, 84);
+    font-style: italic;
+    font-weight: 20000;
+    font-size: 4vw;
+
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+form {
+  animation: fadeIn 0.8s ease-out;
+}
+
+
+form {
+  animation: fadeIn 0.8s ease-out;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-top: -55px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input:focus {
+    border-color: #007bff;
+}
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left:30px;
+}
+
+.container {
+      max-width: 600px;
+      margin: 5rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+h1 {
+      color: #d84315;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+.fwi-value {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #ff5722;
+    }
+.risk-level {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      padding: 0.75rem;
+      border-radius: 8px;
+      display: inline-block;
+    }
+.low { background: #c8e6c9; color: #2e7d32; }
+    .moderate { background: #fff9c4; color: #fbc02d; }
+    .high { background: #ffcdd2; color: #c62828; }
+    .buttons {
+      margin-top: 2rem;
+    }
+.buttons a {
+      text-decoration: none;
+      background: #d84315;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      margin: 0 0.5rem;
+      font-weight: bold;
+      display: inline-block;
+    }
