@@ -1,7 +1,5 @@
 <h1><mark><i>IgnitionIQ</i></mark></h1>
-Smart fire risk modeling for climate-aware decisions.
-# SignalBeforeFlame 🔥  
-**Predicting fire risk before ignition — clarity that protects.**
+<h3>Smart fire risk modeling for climate-aware decisions</h3>
 
 SignalBeforeFlame is a web-based Fire Weather Index (FWI) predictor built for Algeria’s two forest regions. It uses machine learning to forecast fire risk based on temperature, humidity, wind, and rainfall — helping users take preventive action before flames ignite.
 
@@ -37,8 +35,7 @@ SignalBeforeFlame isn’t just a fire risk predictor — it’s a clarity-first 
 
 ---
 
-👋 About the Builder  
-a clarity-driven systems architect and emotionally intelligent builder. Designs automation tools and learning systems that prioritize trust, stepwise clarity, and user impact.
+
 
 ---
 
