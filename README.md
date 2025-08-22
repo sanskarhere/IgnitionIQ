@@ -11,7 +11,8 @@ Algeria’s forests face increasing wildfire threats due to climate variability.
 ---
 
 🧠 What It Does  
-- 🔎 **FWI Prediction**: Uses scikit-learn models to estimate fire risk from weather inputs  
+- 🔎 **FWI Prediction**: Uses scikit-learn models to estimate fire risk from weather inputs
+- 🧮**Interactive Form**: Users enter temperature, humidity, wind, and rainfall to get instant predictions  
 - 🗺️ **Regional Comparison**: Highlights how fire behavior differs across Algerian zones  
 - 📊 **Clarity-First UI**: Front page explains FWI logic in beginner-safe, emotionally resonant language  
 - 🧠 **Session-Based Flow**: Stores predictions and region info for smooth user experience
